@@ -17,7 +17,7 @@ public class Utils4Bean {
      * @return true is null, false is not null
      */
     public static boolean isNotNull(Object o) {
-        return o == null;
+        return o != null;
     }
 
     public static boolean isNotNull(Object o, Object... os) {
