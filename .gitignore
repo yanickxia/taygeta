@@ -8,7 +8,7 @@
 *.iml
 /.idea
 /build
-/gradle
+gradle
 /.gradle
 
 .DS_Store
