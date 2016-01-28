@@ -2,6 +2,8 @@ group 'info.yannxia.java.utils'
 version '1.0'
 
 apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
