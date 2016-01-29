@@ -13,6 +13,7 @@ public class Utils4Bean {
 
     /**
      * most of time. if pass one param to it, will more quick
+     *
      * @param o object
      * @return true is null, false is not null
      */
@@ -21,6 +22,6 @@ public class Utils4Bean {
     }
 
     public static boolean isNotNull(Object o, Object... os) {
-        return !Arrays.asList(o, os).stream().anyMatch((i) -> i == null);
+        return Arrays.asList(o, os).stream().allMatch((i) -> i != null);
     }
 }
