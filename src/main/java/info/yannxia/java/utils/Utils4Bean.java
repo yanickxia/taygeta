@@ -6,7 +6,7 @@ import org.apache.logging.log4j.core.LoggerContext;
 import java.util.Arrays;
 
 
-public class Utils4Bean {
+public abstract class Utils4Bean {
     private final Logger logger = LoggerContext.getContext().getLogger(Utils4Bean.class.getName());
 
     /**
