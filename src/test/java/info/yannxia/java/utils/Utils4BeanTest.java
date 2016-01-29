@@ -5,9 +5,7 @@ import org.apache.logging.log4j.core.LoggerContext;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by yann on 15/10/19.
- */
+
 public class Utils4BeanTest {
 
     private final Logger logger = LoggerContext.getContext().getLogger(Utils4BeanTest.class.getName());

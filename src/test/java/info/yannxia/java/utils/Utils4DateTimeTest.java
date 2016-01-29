@@ -7,9 +7,7 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 
-/**
- * Created by yann on 15/10/20.
- */
+
 public class Utils4DateTimeTest {
 
     private final Logger logger = LoggerContext.getContext().getLogger(Utils4DateTimeTest.class.getName());
