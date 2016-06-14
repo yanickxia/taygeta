@@ -1,13 +1,9 @@
 package info.yannxia.java.utils;
 
-import org.apache.logging.log4j.core.Logger;
-import org.apache.logging.log4j.core.LoggerContext;
-
 import java.util.Arrays;
 
 
 public abstract class Utils4Bean {
-    private final Logger logger = LoggerContext.getContext().getLogger(Utils4Bean.class.getName());
 
     /**
      * most of time. if pass one param to it, will more quick

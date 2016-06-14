@@ -11,3 +11,7 @@
 /.gradle
 
 .DS_Store
+src/main/resources/
+src/test/resources/
+/java-utils.ipr
+/java-utils.iws
